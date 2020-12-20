@@ -3431,7 +3431,10 @@ input, select, textarea {
 						}
 
 						#header > nav > ul > li a.active {
-							color: #ffffff;
+							background: linear-gradient(to right, #9e3dfe, #fa4694);
+							-webkit-background-clip: text;
+							background-clip: text;
+							-webkit-text-fill-color: transparent;
 						}
 
 		@media screen and (max-width: 736px) {
